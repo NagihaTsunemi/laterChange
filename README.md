@@ -2,21 +2,21 @@
 
 | No  | API名                                        | URI                                     | メソッド | 概要                                           |
 | :-: | -------------------------------------------- | --------------------------------------- | -------- | -------------------------------------------- |
-| 1   | [勤務形態](#warkingStyle)                    |                                          |          |                                              |
-| 1-1 | [勤務形態情報取得（一覧）](#GET勤務形態情報取得（一覧）) | /warkingStyle                      | GET      | 勤務形態情報一覧を取得する。                     |
-| 1-2 | [勤務形態情報取得（個別）](#GET勤務形態情報取得（個別）) | /warkingStyle/:workingStyleCode    | GET      | 勤務形態情報を取得する。                        |
-| 1-3 | [勤務形態情報登録](#POST勤務形態情報登録)     | /warkingStyle                               | POST     | 勤務形態情報を登録する。                        |
-| 1-4 | [勤務形態情報更新](#PUT勤務形態情報更新)      | /warkingStyle/:workingStyleCode             | PUT      | 勤務形態情報を更新する。                        |
-| 1-5 | [勤務形態情報削除](#DELETE勤務形態情報削除)   | /warkingStyle/:workingStyleCode             | DELETE   | 勤務形態情報を削除する。                        |
+| 1   | [勤務形態](#workingStyle)                    |                                          |          |                                              |
+| 1-1 | [勤務形態情報取得（一覧）](#GET勤務形態情報取得（一覧）) | /workingStyle                      | GET      | 勤務形態情報一覧を取得する。                     |
+| 1-2 | [勤務形態情報取得（個別）](#GET勤務形態情報取得（個別）) | /workingStyle/:workingStyleCode    | GET      | 勤務形態情報を取得する。                        |
+| 1-3 | [勤務形態情報登録](#POST勤務形態情報登録)     | /workingStyle                               | POST     | 勤務形態情報を登録する。                        |
+| 1-4 | [勤務形態情報更新](#PUT勤務形態情報更新)      | /workingStyle/:workingStyleCode             | PUT      | 勤務形態情報を更新する。                        |
+| 1-5 | [勤務形態情報削除](#DELETE勤務形態情報削除)   | /workingStyle/:workingStyleCode             | DELETE   | 勤務形態情報を削除する。                        |
 
-## /warkingStyle
+## /workingStyle
 
 ### GET:勤務形態情報取得（一覧）
 
 | API名        | 勤務形態取得（一覧）               |
 | ------------ | ------------------------------ |
 | 概要         | 勤務形態一覧（マスタ）を取得する。 |
-| アクセスURI  | /warkingStyle                    |
+| アクセスURI  | /workingStyle                    |
 | HTTPメソッド | GET                            |
 | 備考         |                                |
 
@@ -52,7 +52,7 @@
 | API名        | 勤務形態取得（個別）              |
 | ------------ | ------------------------------ |
 | 概要         | 指定された勤務形態を取得する。      |
-| アクセスURI  | /warkingStyle/:workingStyleCode |
+| アクセスURI  | /workingStyle/:workingStyleCode |
 | HTTPメソッド | GET                             |
 | 備考         |                                 |
 
@@ -89,7 +89,7 @@
 | API名        | 勤務形態情報登録              |
 | ------------ | -------------------------- |
 | 概要         | 勤務形態情報を登録する。       |
-| アクセスURI  | /warkingStyle               |
+| アクセスURI  | /workingStyle               |
 | HTTPメソッド | POST                        |
 | 備考         |                             |
 
@@ -124,7 +124,7 @@
 | API名        | 勤務形態情報更新                 |
 | ------------ | ------------------------------ |
 | 概要         | 勤務形態情報を更新する。           |
-| アクセスURI  | /warkingStyle/:workingStyleCode |
+| アクセスURI  | /workingStyle/:workingStyleCode |
 | HTTPメソッド | PUT                             |
 | 備考         |                                |
 
@@ -161,7 +161,7 @@
 | API名        | 勤務形態情報削除                   |
 | ------------ | ------------------------------- |
 | 概要         | 勤務形態情報を削除する。            |
-| アクセスURI  | /warkingStyle/:workingStyleCode  |
+| アクセスURI  | /workingStyle/:workingStyleCode  |
 | HTTPメソッド | DELETE                           |
 | 備考         |                                 |
 
